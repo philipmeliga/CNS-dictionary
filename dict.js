@@ -3,7 +3,6 @@ const apiUrl = `https://www.dictionaryapi.com/api/v3/references/collegiate/json/
 const searchForm = document.getElementById('search-form');
 const wordInput = document.getElementById('word-input');
 const definitionContainer = document.getElementById('definition-container');
-
 searchForm.addEventListener('submit', async (e) => {
   e.preventDefault();
   const word = wordInput.value.trim();

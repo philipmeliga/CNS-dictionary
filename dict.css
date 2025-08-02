@@ -1,12 +1,13 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
+  background-color: lightblue;
 }
 
 header {
-  background-color: #333;
+  background-color: blue;
   color: #fff;
   padding: 1em;
+  border-radius: 8px;
   text-align: center;
 }
 
@@ -16,6 +17,7 @@ main {
   padding: 1em;
   background-color: #fff;
   border: 1px solid #ddd;
+  border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,6 +29,7 @@ main {
 #word-input {
   width: 70%;
   padding: 0.5em;
+  border-radius: 5px;
   border: 1px solid #ccc;
 }
 
@@ -36,6 +39,7 @@ main {
   background-color: #333;
   color: #fff;
   border: none;
+  border-radius: 5px;
   cursor: pointer;
 }
 
